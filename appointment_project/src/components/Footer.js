@@ -32,6 +32,7 @@ const FooterContent = styled.div`
   padding-right: 1%;
   & h6 {
     margin: 0 0 1% 0;
+    letter-spacing: 1px;
   }
   & li {
     font-size: 12px;
@@ -113,7 +114,7 @@ function Footer() {
       </FooterWrapper>
       <p>
         Copyright &copy; 2020 Developed by Jennifer Magpantay using HTML5, CSS3
-        & React
+        & React | LinkedIn Learning by Ray Villalobos
       </p>
     </FooterContainer>
   );

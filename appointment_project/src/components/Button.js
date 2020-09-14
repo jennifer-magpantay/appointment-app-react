@@ -8,7 +8,7 @@ border: none;
 border-radius: 4px;
 color: var(--white);
 cursor: pointer;
-font-size: 16px;
+font-size: 15px;
 text-transform: uppercase;
 &:hover {
     opacity: 0.9;

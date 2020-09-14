@@ -4,7 +4,7 @@ import styled from "styled-components";
 const FormContainer = styled.div`
   width: 100%;
   padding: 2%;
-    background-color: var(--white);
+  background-color: var(--white);
   border: 1px solid var(--lg-gray);
   border-radius: 4px;
 
@@ -13,4 +13,4 @@ const FormContainer = styled.div`
     margin-top: 0;
   }
 `;
- export default FormContainer;
+export default FormContainer;
