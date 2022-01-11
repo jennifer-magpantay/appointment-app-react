@@ -1,0 +1,17 @@
+@use "../helpers/" as *;
+
+form {
+    width: 100%;
+
+    label {
+        display: block;
+    }
+    input, textarea {
+        width: 100%;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        border: $border-gray;
+        border-radius: $border-radius;
+        color: $color-text;
+    }
+}

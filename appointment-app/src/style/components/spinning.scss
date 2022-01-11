@@ -1,0 +1,32 @@
+@use "../helpers/" as *;
+
+.loader--label{
+    color: $color-gray;
+    text-transform: uppercase;
+    animation: fading 10s ease-out infinite;
+}
+
+.loader {
+    width: 5em;
+    height: 5em;
+    margin-bottom: 1rem;
+    border: 6px solid $color-gray;
+    border-radius: 50%;
+    border-top-color: $color-primary-dark;
+    animation: rotating 1s infinite, fading 10s ease-out infinite;
+}
+
+// ---------- ANIMATION ----------
+// set an animation to rotate the element
+@keyframes rotating {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+// and another one with a fading effect
+@keyframes fading {
+    to {
+        opacity: 0;
+    }
+}

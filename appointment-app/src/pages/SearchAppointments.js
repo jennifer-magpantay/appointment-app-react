@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Label from "./Label";
+import Label from "../components/Label";
 import Container from "./Container";
 import FormContainer from "./FormContainer";
 

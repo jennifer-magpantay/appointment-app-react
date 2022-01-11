@@ -1,18 +1,16 @@
-import styled from 'styled-components';
+import React from "react";
 
-const Button = styled.button`
-width: auto;
-padding: 12px 16px;
-background-color: var(--blue);
-border: none;
-border-radius: 4px;
-color: var(--white);
-cursor: pointer;
-font-size: 15px;
-text-transform: uppercase;
-&:hover {
-    opacity: 0.9;
-}
-`;
+export const Button = ({ type, children, buttonClick }) => {
+  function handleButtonOnClick(event) {
+    if (buttonClick) {
+      event.persist();
+      buttonClick(event);
+    }
+  }
 
-export default Button;
+  return (
+    <button type={type} onClick={handleButtonOnClick}>
+      {children}
+    </button>
+  );
+};

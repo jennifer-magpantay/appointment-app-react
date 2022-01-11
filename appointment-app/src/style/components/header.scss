@@ -1,0 +1,12 @@
+@use "../helpers/" as *;
+
+header {
+      padding: $padding;
+    background-color: $color-primary-dark;
+    
+
+    h1 {
+        color: $color-white;
+        text-align: center;
+    }
+}

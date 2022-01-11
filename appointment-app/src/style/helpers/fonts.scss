@@ -1,0 +1,52 @@
+@use "./variables" as *;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap");
+
+// font size & family
+h1 {
+  margin: 1rem 0;
+  font-size: clamp(4rem, 4.8vw, 4.8rem);
+  font-weight: 900;
+  text-align: center;
+}
+
+h2 {
+  font-size: clamp(2.6rem, 4vw, 4rem);
+  font-weight: 700;
+}
+
+h4 {
+  font-size: clamp(2rem, 2.6vw, 2.6rem);
+  font-weight: 500;
+}
+
+h5 {
+  font-size: clamp(1.6rem, 2vw, 2rem);
+  font-weight: 300;
+}
+
+h6 {
+  font-size: clamp(1.4rem, 1.6vw, 1.6rem);
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $color-text;
+}
+
+p,
+input,
+select,
+option,
+span,
+label,
+li {
+  color: $color-text;
+  font-size: clamp(1.4rem, 1.6vw, 1.6rem);
+}

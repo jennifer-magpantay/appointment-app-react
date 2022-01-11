@@ -1,0 +1,22 @@
+@use "./variables";
+
+html {
+    font-size: 62.5%;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+span {
+    font-weight: bold;
+}
+
+.main__container {
+    width: min(100%, 800px);
+    max-height: 80vh;
+    display: flex;
+    margin-inline: auto;
+}

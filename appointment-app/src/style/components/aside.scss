@@ -1,0 +1,14 @@
+@use "../helpers/" as *;
+
+aside {
+    width: 25%;
+    height: 80vh;
+    padding: 2%;
+    background-color: $color-gray;
+    border-right: $border-light;
+    color: $color-gray;
+
+    li > button {
+        width: 100%;
+    }
+}

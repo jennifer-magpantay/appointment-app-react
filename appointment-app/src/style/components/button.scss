@@ -1,0 +1,19 @@
+@use "../helpers/" as *;
+
+button {
+    display: block;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    background-color: $color-primary-dark;
+    border: none;
+    border-radius: $border-radius;
+    color: $color-white;
+    cursor: pointer;
+    font-size: clamp(1.4rem, 1.6vw, 1.6rem);
+    text-transform: uppercase;
+
+    &:hover,
+    &:focus {
+        background-color: darken($color-primary-dark, 10%);
+    }
+}

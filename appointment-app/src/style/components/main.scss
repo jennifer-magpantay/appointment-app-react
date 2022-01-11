@@ -1,0 +1,10 @@
+@use "../helpers/" as *;
+
+main {
+    width: 75%;
+    min-height: 80hv;
+    padding: 2%;
+    background-color: $color-gray;
+    color: $color-text;
+    overflow: auto;
+}
